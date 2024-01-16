@@ -8,12 +8,12 @@
 
 ## Black-Box Coverage Problem
 
-`LAMBDA` is designed mainly for the Black-Box Coverage (BBC) problem, which means, to estimate the level-set of the inequality $f(x)<y^*$ with a limited budget to evaluate the black-box function $f(x)$, which is usually expensive. We first formalize the BBC problem from the safety evaluation of the automonous driving system in a logical scenario space, and also believe that the problem abstaction of BBC and the LAMBDA algorithm can be scaled to related scenarios in other fields with little change.
+`LAMBDA` is designed mainly for the Black-Box Coverage (BBC) problem, which means, to estimate the level-set of the inequality $f(x)<\delta$ with a limited budget to evaluate the black-box function $f(x)$, which is usually expensive. We first formalize the BBC problem from the safety evaluation of the automonous driving system in a logical scenario space, and also believe that the problem abstaction of BBC and the LAMBDA algorithm can be scaled to related scenarios in other fields with little change.
 
 Here is the benchmark results of ours method with a bunch of classical or SOTA methods such as TuRBO, BO, GA, etc.
 
-![benchmark1](doc\readme\picture1.png)
-![benchmark1](doc\readme\picture2.png)
+![benchmark1](https://github.com/BigTailFox/LAMBDA/blob/main/doc/readme/picture1.png?raw=True)
+![benchmark2](https://github.com/BigTailFox/LAMBDA/blob/main/doc/readme/picture2.png?raw=True)
 
 Refer to the [pre-print](https://arxiv.org/abs/2203.13708) for a detailed introduction of our work. There are also some further works based on `LAMBDA` coming soon.
 
