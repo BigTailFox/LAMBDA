@@ -1,6 +1,6 @@
 # LAMBDA
 
-**L**atent-**A**ction **M**ulti-**B**eam Search with **D**ensity-**A**daption
+**L**atent-**A**ction **M**onte-Carlo **B**eam Search with **D**ensity-**A**daption
 
 `LAMBDA` is a SMBO(Sequential Model-based Black-Box Optimization) Method derived from [LA-MCTS](https://github.com/facebookresearch/LaMCTS) for both black-box optimization and coverage problem. This repo contains the official implementation of `python` in this [pre-print](https://arxiv.org/abs/2203.13708), as well as some artificial functions and test problems to evaluate the algorithm. Feel free to reproduce our results on test functions in 5 minutes.
 
